@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section{
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section  .head > h2{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+h2 span{
+    color: #00bbf0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    transition: all .3s;
+}
+
+.home{
+    color: #00bbf0;
+}
+
+.cards .column a{
+    transition: all .3s;
+}
+
+section .head p{
+    font-size: 19px;
+}
+
+h5{
+   font-size: 20px;
+   margin: 10px 0px;
+}
+
+
+.details{
+    text-align: left;
+}
+
+.details h1{
+    font-size: 45px;
+    margin: 20px 0px;
+}
+
+.details p{
+    width: 550px;
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #00bbf0;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px;
+    transition: all .3s;
+}
+
+/* end Statics */
+
+/* "header" */
+
+.header{
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    height: 893px;    
+    position: relative;
+}
+
+.header nav span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header nav ul{
+    width: 600px;
+    height: 35px;
+}
+
+.header .content{
+    padding: 100px 30px;
+}
+
+.header .content img{
+    width: 450px;
+    position: absolute;
+    right: 40px;
+    top: 180px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* end "header" */
+
+/* section "services */
+
+
+.head p{
+    margin: 20px 0px;
+}
+
+
+
+.cards{
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.cards > div{
+    width: 290px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+
+.cards > div img{
+    width: 75px;
+}
+
+
+.cards > div p{
+    line-height: 20px;
+    width: 250px;
+}
+
+.cards > div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* end section "services" */
+
+/* section "about" */
+
+.about, .team{
+    background-color: #00204a;
+    color: white;
+    padding: 100px 30px;
+}
+
+.about img{
+    width: 600px;
+}
+
+/* end section "about" */
+
+/* section "why" */
+
+.why .column > div img{
+    width: 55px;
+    padding: 30px;
+    border: 4px solid #00204a;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+.why .column > div p{
+    width: 930px;
+
+}
+
+/* end of section "why" */
+
+/* section "team" */
+
+.pro {
+    background: linear-gradient(to bottom,#002759,#002b64);
+    width: 22%;
+    height: 350px;
+    position: relative;
+    border-radius: 10px
+}
+
+.pro .column img{
+    width: 120px;
+    border: 5px solid white;
+    border-radius: 100%;
+    margin: 40px 0px 20px 0px;
+}
+
+.pro .column > div h1{
+    color: #00bbf0;
+    margin: 10px 0px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 25px;
+}
+
+.icons ul{
+    width: 160px;
+    font-size: 20px;
+}
+
+/* end section "team" */
+
+/* section "costumers" */
+
+.comnt{
+    width: 42%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.237);
+    padding: 20px;
+    margin: auto;
+    margin-top: 55px;
+    position: relative;
+}
+
+.comnt img{
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: -53px;
+}
+
+.comnt .text {
+    width: 80%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+
+.comnt .text p{
+    color:rgb(83, 83, 83);
+}
+
+.comnt .text i{
+    position: absolute;
+    right: 25px;
+    font-size: 19px;
+    color: #00204a;
+}
+
+.spec{
+    font-size: 14px;
+}
+
+/* end section "costumers" */
+
+/* footer */
+
+.footer{
+    /* width: 100%; */
+    height: 300px;
+    background-color: #00204a;
+    color: white;
+    padding: 50px;
+}
+
+.footer .row div{
+    width: 245px;
+}
+
+.footer .row div h1{
+    margin-bottom: 30px;
+}
+
+.footer .row div ul li{
+    margin: 20px 0px;
+}
+
+.icon{
+    font-size: 20px;
+    width: 100px;
+}
+
+input{
+    width: 200px;
+    padding: 10px 0px;
+    /* color: white; */
+    background-color: transparent;
+    border: none;
+    border-bottom: white 2px solid;
+    font-size: 17px;
+}
+
+::placeholder{
+    color: white;
+}
+
+/* end footer */
+
+/* hover */
+
+button:hover{
+    cursor: pointer;
+    background-color:#00799a;
+}
+
+li:hover{
+    color: #00bbf0;
+    cursor: pointer;
+}
+
+nav span:hover{
+    cursor: pointer;
+}
+
+.cards .column a:hover{
+    color: #00bbf0;
+    cursor: pointer;
+}
+
+/* end hover */
+
+/* animation */
+
+@keyframes move{
+    50%{
+        top: 100px;
+    }
+
+    100%{
+        top: 180px;
+    }
+}
